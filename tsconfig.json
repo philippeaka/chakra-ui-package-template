@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "project": "./tsconfig.json",
     "isolatedModules": true,
     "declaration": true,
     "moduleResolution": "node",
@@ -13,5 +12,5 @@
     "jsx": "react"
   },
   "include": ["./src/**/*"],
-  "exclude": ["dist", "src/**/*.test.*"]
+  "exclude": ["dist", "src/test-utils.tsx"]
 }

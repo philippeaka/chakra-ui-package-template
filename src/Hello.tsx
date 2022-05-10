@@ -9,12 +9,10 @@ const defaultProps = {
   text: 'Hello World',
 }
 
-export const Hello: React.FC<Props> = ({ text }) => {
-  return (
-    <Box>
-      <Text>{text}</Text>
-    </Box>
-  )
-}
+export const Hello: React.FC<Props> = ({ text }) => (
+  <Box>
+    <Text>{text}</Text>
+  </Box>
+)
 
 Hello.defaultProps = defaultProps
