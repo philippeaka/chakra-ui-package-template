@@ -29,6 +29,7 @@
     ]
   },
   "peerDependencies": {
+    "@chakra-ui/react": "^1.0.0",
     "react": "16.x || 17.x"
   },
   "devDependencies": {
@@ -37,6 +38,9 @@
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "@preconstruct/cli": "^2.1.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.2",
@@ -54,6 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "framer-motion": "^6.3.3",
     "husky": "^8.0.0",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",

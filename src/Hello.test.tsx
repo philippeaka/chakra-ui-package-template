@@ -1,6 +1,6 @@
 import React from 'react'
 import { Hello } from './Hello'
-import { render, screen } from '@testing-library/react'
+import { render, screen } from './test-utils'
 
 test("renders 'Hello World'", () => {
   render(<Hello text="Hello World" />)
